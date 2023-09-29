@@ -6,7 +6,8 @@ body{
 	background-color: #a164df;
 	gap: 20px
 }
-button{
+.btn, .stop{
+	margin-top: 50px;
 	color: white;
 	background-color: #663399;
 	padding: 10px 20px;

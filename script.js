@@ -1,46 +1,40 @@
 //your JS code here. If required.
-const applause = document.createElement("audio");
-applause.src = "./sounds/applause.mp4";
-
-const boo = document.createElement("audio");
-boo.src = "./sounds/boo.mp4";
-
-const gasp = document.createElement("audio");
-gasp.src = "./sounds/gasp.mp4";
-
-const tada = document.createElement("audio");
-tada.src = "./sounds/tada.mp4";
-
-const victory = document.createElement("audio");
-victory.src = "./sounds/victory.mp4";
-
-const wrong = document.createElement("audio");
-wrong.src = "./sounds/wrong.mp4";
-
+const audio = document.createElement("audio");
 function playAudio(btnRef){
 	let currentBtnId = btnRef.id;
-
 	switch(currentBtnId){
 			case "applause":
-			applause.play();
+			audio.src = "./sounds/applause.mp4";
+			audio.play();
 			break;
+			
 			case "boo":
-			boo.play();
+			audio.src = "./sounds/boo.mp4";
+			audio.play();
 			break;
+			
 			case "gasp":
-			gasp.play();
+			audio.src = "./sounds/gasp.mp4";
+			audio.play();
 			break;
+			
 			case "tada":
-			tada.play();
+			audio.src = "./sounds/tada.mp4";
+			audio.play();
 			break;
+			
 			case "victory":
-			victory.play();
+			audio.src = "./sounds/victory.mp4";
+			audio.play();
 			break;
+			
 			case "wrong":
-			wrong.play();
+			audio.src = "./sounds/wrong.mp4";
+			audio.play();
 			break;
+			
 			case "stop":
-			stop.play();
+			audio.pause();
 			break;
 	}
 }
