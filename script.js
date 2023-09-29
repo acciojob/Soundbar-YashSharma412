@@ -17,8 +17,6 @@ victory.src = "./sounds/victory.mp4";
 const wrong = document.createElement("audio");
 wrong.src = "./sounds/wrong.mp4";
 
-const stop = document.createElement("audio");
-stop.src = "./sounds/stop.mp4";
 function playAudio(btnRef){
 	let currentBtnId = btnRef.id;
 
