@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #a164df;
+	gap: 20px
+}
+button{
+	color: white;
+	background-color: #663399;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+}
