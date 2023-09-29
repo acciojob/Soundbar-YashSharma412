@@ -4,6 +4,7 @@ function playAudio(btnRef){
 	let currentBtnId = btnRef.id;
 	switch(currentBtnId){
 			case "applause":
+			console.log("applauseBtnClicked");
 			audio.src = "./sounds/applause.mp4";
 			audio.play();
 			break;
